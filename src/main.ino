@@ -140,7 +140,7 @@ void initWiFiEspNow() {
   esp_now_add_peer(&peerInfo);
 }
 
-// ====== 入口 ======
+//====== 入口 ======
 void setup() {
   Serial.begin(115200);
   delay(200);
