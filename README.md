@@ -34,9 +34,11 @@ src/
 
 ## JIRA 集成
 
-- **Epic**: ECS-15 ESP32-S3 Matrix Radar System
-- **Repository**: https://github.com/Zssan12/Art-Art-Art
-- **Status**: ✅ 核心功能已完成
+- **Epic**: ECS-15 Dev - ESP32-S3 Matrix Radar System
+- **Pull Request**: #1 (已合并)
+- **原始仓库**: https://github.com/Ainz-X/Art-Art-Art-
+- **当前仓库**: https://github.com/Zssan12/Art-Art-Art
+- **Status**: ✅ 核心功能已完成，文档已更新
 
 ## 安装和使用
 
@@ -51,3 +53,22 @@ src/
 - 无设备时：中心蓝色闪烁点
 - 有设备时：彩色柱状图显示信号强度
 - 颜色变化：红色(远距离) → 绿色(近距离)
+
+## 项目协作
+
+### 开发历程
+1. **初始版本**: 来自 Ainz-X/Art-Art-Art- 仓库
+2. **Pull Request #1**: ECS-15 Dev 分支合并到 main
+3. **功能增强**: 添加完整的 ESP32-S3 Matrix Radar 实现
+4. **文档完善**: 更新项目说明和使用指南
+
+### 贡献者
+- **原始项目**: Ainz-X
+- **当前维护**: Zssan12 (zhaixinyang)
+
+### 如何贡献
+1. Fork 本仓库
+2. 创建功能分支: `git checkout -b feature/your-feature`
+3. 提交更改: `git commit -m "ECS-XX: 描述你的更改"`
+4. 推送分支: `git push origin feature/your-feature`
+5. 创建 Pull Request
